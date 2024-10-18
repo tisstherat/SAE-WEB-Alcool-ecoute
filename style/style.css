@@ -1,0 +1,54 @@
+html {
+background-color : white;
+font-family : "Segoe UI";
+}
+
+body {
+margin-left : 15%;
+margin-right : 15%;
+}
+
+header {
+background-color: #4a61ba;
+border-radius : 0 0 1em 1em;
+font-size : 1.5em;
+color : white;
+text-align : center;
+margin-left : -1.5em;
+margin-right : -1.5em;
+margin-bottom : 1.5em;
+margin-top : -1em;
+position : sticky;
+top : 0px;
+}
+
+header > div {
+display: inline-block;
+width: -3em;
+}
+
+#logo {
+width : 3em;
+position: relative;
+top: 1em;
+}
+
+header > #menu {
+display: none;
+width: 1.5em;
+position: absolute;
+top: 1.5em;
+right: 1em;
+}
+
+header > h1 {
+font-size : 1.5em;
+display: inline-block;
+}
+
+header > h2 {
+font-size : 1em;
+display: inline-block;
+width: 0px;
+white-space: nowrap;
+}
