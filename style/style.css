@@ -4,27 +4,24 @@ font-family : "Segoe UI";
 }
 
 body {
-margin-left : 15%;
-margin-right : 15%;
+    color: black;
 }
 
 header {
-background-color: #4a61ba;
-border-radius : 0 0 1em 1em;
+background-color: #1E3A5F;
 font-size : 1.5em;
 color : white;
 text-align : center;
-margin-left : -1.5em;
-margin-right : -1.5em;
+    margin: -1.5em;
 margin-bottom : 1.5em;
 margin-top : -1em;
 position : sticky;
-top : 0px;
+top : 0;
 }
 
 header > div {
 display: inline-block;
-width: -3em;
+height: 0;
 }
 
 #logo {
@@ -38,7 +35,7 @@ display: none;
 width: 1.5em;
 position: absolute;
 top: 1.5em;
-right: 1em;
+right: 2.5em;
 }
 
 header > h1 {
@@ -49,6 +46,5 @@ display: inline-block;
 header > h2 {
 font-size : 1em;
 display: inline-block;
-width: 0px;
 white-space: nowrap;
 }
