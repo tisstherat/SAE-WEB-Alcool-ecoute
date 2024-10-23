@@ -1,6 +1,6 @@
 html {
-background-color : white;
-font-family : "Segoe UI";
+    background-color : white;
+    font-family : "Segoe UI";
 }
 
 body {
@@ -8,34 +8,38 @@ body {
 }
 
 header {
-background-color: #1E3A5F;
-font-size : 1.5em;
-color : white;
-text-align : center;
+    background-color: #1E3A5F;
+    font-size : 1.5em;
+    color : white;
+    text-align : center;
     margin: -1.5em;
-margin-bottom : 1.5em;
-margin-top : -1em;
-position : sticky;
-top : 0;
+    margin-bottom : 1.5em;
+    margin-top : -1em;
+    position : sticky;
+    top : 0;
 }
 
 header > div {
-display: inline-block;
-height: 0;
+    display: inline-block;
+    height: 0;
 }
 
 #logo {
-width : 3em;
-position: relative;
-top: 1em;
+    width : 3em;
+    position: relative;
+    top: 1em;
+}
+
+header > * {
+    margin-top: -0.5em;
 }
 
 header > #menu {
-display: none;
-width: 1.5em;
-position: absolute;
-top: 1.5em;
-right: 2.5em;
+    display: none;
+    width: 1.5em;
+    position: absolute;
+    top: 1.5em;
+    right: 2.5em;
 }
 
 header > h1 {
