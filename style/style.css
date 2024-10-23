@@ -43,12 +43,28 @@ header > #menu {
 }
 
 header > h1 {
-font-size : 1.5em;
-display: inline-block;
+    font-size : 1.5em;
+    display: inline-block;
 }
 
 header > h2 {
-font-size : 1em;
-display: inline-block;
-white-space: nowrap;
+    font-size : 1em;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #1E3A5F;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    margin: -1em;
+    width:100%;
+}
+
+footer > img {
+    display: inline-block;
+    height: 10em;
+    max-height: 6em;
+    margin: 0.5em;
 }
