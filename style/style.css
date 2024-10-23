@@ -1,6 +1,7 @@
 html {
     background-color : white;
     font-family : "Segoe UI";
+    overflow-x:hidden;
 }
 
 body {
@@ -60,11 +61,13 @@ footer {
     color: white;
     margin: -1em;
     width:100%;
+    font-size: 0.8em;
+    bottom: 0;
 }
 
 footer > img {
     display: inline-block;
     height: 10em;
-    max-height: 6em;
+    max-height: 5em;
     margin: 0.5em;
 }
