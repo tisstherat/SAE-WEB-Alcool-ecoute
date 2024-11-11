@@ -71,3 +71,17 @@ footer > img {
     max-height: 5em;
     margin: 0.5em;
 }
+
+#title {
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+}
+#title > h1 {
+    width:50%;
+    background-color: darkgrey;
+}
+#title > h2 {
+    width:50%;
+    background-color: lightgrey;
+}
