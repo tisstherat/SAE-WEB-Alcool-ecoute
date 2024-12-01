@@ -115,3 +115,24 @@ article {
     width: 50%;
     background-color: lightgrey;
 }
+
+.contact-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.contact-header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.contact-form {
+    background-color: #e7f1ff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.footer-contact {
+    background-color: #f0f8ff;
+    padding: 20px;
+    font-size: 0.9rem;
+}
