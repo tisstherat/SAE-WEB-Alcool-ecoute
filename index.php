@@ -9,38 +9,8 @@
     </head>
 	<body>
         <?php require_once "includes/header.html"?>
+        <?php require_once "includes/navbar.html"?>
 
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
-		<p>iduzahiduazhiduh</p>
 		<p>iduzahiduazhiduh</p>
 		<p>iduzahiduazhiduh</p>
 		<p>iduzahiduazhiduh</p>
