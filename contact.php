@@ -10,11 +10,11 @@
 </head>
 <body>
 <header class = reset-this>
-  <div><img src="./media/logo_AE.png" id="logo"/></div>
+  <div><img src="./media/logo_AE.png" id="logo" alt="logoAE"/></div>
   <h1>ALCOOL ECOUTE</h1>
   <h2>Joie & Santé</h2>
 
-  <img src="media/logoMenuDeroulant.png" id="menu">
+  <img src="media/logoMenuDeroulant.png" id="menu" alt="logoMenuDeroulant">
 </header>
 
 <div class="container my-5">
@@ -86,5 +86,6 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<?php require_once "includes/footer.html"?>
 </body>
 </html>
