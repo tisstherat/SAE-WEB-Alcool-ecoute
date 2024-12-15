@@ -21,26 +21,26 @@ header {
 }
 
 header > div {
-    display: inline-block;
-    height: 0;
+    /*display: inline-block;*/
+    /*height: 100%;*/
+    top: 0;
 }
 
 #logo {
     width : 3em;
     position: relative;
-    top: 1em;
+    top: 0.35em;
+    left:0;
 }
 
 header > * {
-    margin-top: -0.5em;
 }
 
-header > #menu {
-    display: none;
-    width: 1.5em;
-    position: absolute;
-    top: 1.5em;
-    right: 2.5em;
+#menu {
+    width: 2em;
+    position: relative;
+    top:0.6em;
+    right:0.2em;
 }
 
 header > h1 {
@@ -52,6 +52,7 @@ header > h2 {
     font-size : 1em;
     display: inline-block;
     white-space: nowrap;
+    bottom: 0;
 }
 
 footer {
@@ -59,8 +60,8 @@ footer {
     padding: 1em;
     text-align: center;
     color: white;
-    margin: -1em;
-    width:100%;
+    margin-left: -3em;
+    margin-right: -3em;
     font-size: 0.8em;
     bottom: 0;
 }
