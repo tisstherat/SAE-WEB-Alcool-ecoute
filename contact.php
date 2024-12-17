@@ -14,7 +14,7 @@
   <h1>ALCOOL ECOUTE</h1>
   <h2>Joie & Santé</h2>
 
-  <img src="media/logoMenuDeroulant.png" id="menu" alt="logoMenuDeroulant">
+  <img src="media/mobileNav.png" id="menu" alt="logoMenuDeroulant">
 </header>
 
 <div class="container my-5">
