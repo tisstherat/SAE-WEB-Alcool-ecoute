@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alcool Ecoute</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="contact-page">
+<header class="row">
+    <div class="col-2"><img src="./media/logo_AE.png" id="logo" alt="Logo Alcool Ecoute"/></div>
+    <div class="col-8 container">
+        <h1 class="col">ALCOOL ECOUTE</h1>
+        <h2 class="col">Joie & Santé</h2>
+    </div>
+    <div class="col-2"><img src="./media/mobileNav.png" id="menu" alt="Menu"></div>
+</header>
+
+<main class="main-container">
+    <div class="contact-section">
+        <h2>Contact</h2>
+        <p>N'hésitez pas à nous contacter ! Et pensez à regarder notre FAQ !</p>
+    </div>
+
+    <form action="contact.php" method="POST" class="mt-5">
+        <div class="form-group">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom">
+        </div>
+        <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom">
+        </div>
+        <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</main>
+
+<footer class="">
+    <div class="">
+        ALCOOL ECOUTE F.N.J.S.
+        Reconnue d’Utilité Publique
+        Groupement d’Associations d’Aide aux Personnes en Difficulté avec l’Alcool
+        Mouvement de Jeunesse et d’Education Populaire<br>
+        Agrément National Ministère de la Santé
+        SIEGE SOCIAL – 3 Impasse des Alouettes – 86190 AYRON
+    </div>
+    <img src="media/logo_assurance_maladie.png">
+    <img src="media/logo_ministere_jeunesse.png">
+    <img src="media/logo_mildt.png">
+    <img src="media/logo_ministere_sante.png">
+    <img src="media/logo_msa.png">
+</footer>
+</body>
+</html>
