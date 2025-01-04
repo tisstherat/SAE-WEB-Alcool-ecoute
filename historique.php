@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style/style.css">
@@ -7,22 +7,18 @@
         <script src="script/responsive.js" type="module"></script>
     </head>
     <body>
-        <header>
-            <div><img src="./media/logo_AE.png" id="logo"/></div>
-            <h1>ALCOOL ECOUTE</h1>
-            <h2>Joie & Santé</h2>
+    <?php require_once "includes/header.html"?>
+    <?php require_once "includes/navbar.html"?>
 
-            <img src="media/mobileNav.png" id="menu">
-        </header>
 
-        <div id="page">
+    <div id="page">
 
             <div id="title">
                 <div id="titleText">
                     <h1>Historique de la fédération</h1>
                 </div>
                 <div id="titleImage">
-                    <h2>image</h2>
+                    <img src="media/placeHolder.png"/>
                 </div>
             </div>
 
