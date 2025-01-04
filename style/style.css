@@ -57,20 +57,22 @@ header > h2 {
 
 footer {
     background-color: #1E3A5F;
-    padding: 1em;
+    padding: 20px;
     text-align: center;
     color: white;
-    margin-left: -3em;
-    margin-right: -3em;
-    font-size: 0.8em;
-    bottom: 0;
+    font-size: 0.9em;
 }
 
-footer > img {
-    display: inline-block;
-    height: 10em;
-    max-height: 5em;
-    margin: 0.5em;
+footer img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #page {
