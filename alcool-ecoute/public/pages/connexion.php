@@ -6,15 +6,16 @@
         <title>Se connecter - Alcool Ecoute</title>
         <link rel="stylesheet" href="../style/connecter.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-
         <script src="../script/connexion.js" type="module" defer></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 
     <body class="connecter-page">
-
         <div class="wrapper">
             <form action="../php/signin.php" method="post" id="connexion">
+                <a href="contact.html" class="icon-return">
+                    <i class='bx bx-left-arrow-alt'></i>
+                </a>
                 <h1>Login</h1>
                 <div class="input-box">
                     <input type="text" placeholder="Adresse email" name="email" required="required">
