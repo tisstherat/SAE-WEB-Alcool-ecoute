@@ -1,0 +1,16 @@
+{
+    "name": "gestion/alcoolecoute",
+    "autoload": {
+        "psr-4": {
+            "Gestion\\AlcoolEcoute\\": "private/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phuong Binh Alexandre Nguyen 204"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
