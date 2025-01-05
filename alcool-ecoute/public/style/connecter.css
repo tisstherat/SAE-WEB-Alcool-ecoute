@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+ }
 body{
     display: flex;
     justify-content: center;
@@ -18,6 +18,7 @@ body{
     color: #ffffff;
     padding: 30px 40px;
     border-radius: 15px;
+    position: relative;
 }
 .wrapper h1{
     font-size: 36px;
@@ -104,4 +105,12 @@ body{
 }
 .btn:hover{
     background-color: #1848a3 !important;
+}
+.wrapper .icon-return{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    cursor: pointer;
 }
