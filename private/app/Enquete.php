@@ -8,49 +8,29 @@ class Enquete
     {}
 
     public function getIdUsers(): int
-    {
-        return $this->id_users;
-    }
+    {return $this->id_users;}
 
     public function getAge(): int
-    {
-        return $this->age;
-    }
+    {return $this->age;}
 
     public function getRegion(): string
-    {
-        return $this->region;
-    }
+    {return $this->region;}
 
     public function getEmploi(): string
-    {
-        return $this->emploi;
-    }
+    {return $this->emploi;}
 
     public function getLieuDeVie(): string
-    {
-        return $this->lieu_de_vie;
-    }
+    {return $this->lieu_de_vie;}
 
     public function getLieuDeVieCDAPH(): string
-    {
-        return $this->lieu_de_vie_CDAPH;
-    }
+    {return $this->lieu_de_vie_CDAPH;}
 
     public function isLieuDeVieChoix(): bool
-    {
-        return $this->lieu_de_vie_choix;
-    }
+    {return $this->lieu_de_vie_choix;}
 
     public function getBesoin(): string
-    {
-        return $this->besoin;
-    }
+    {return $this->besoin;}
 
     public function getBesoinDetail(): string
-    {
-        return $this->besoinDetail;
-    }
-
-
+    {return $this->besoinDetail;}
 }
