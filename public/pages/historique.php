@@ -20,7 +20,7 @@
 
         <nav id="navbar">
             <ul>
-                <li><a href="../../index.php">Accueil</a></li>
+                <li><a href="../index.php">Accueil</a></li>
                 <li><a href="historique.php" class="active">Historique</a></li>
                 <li><a href="#">Les associations</a></li>
                 <li><a href="#">La prévention</a></li>
