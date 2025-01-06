@@ -1,6 +1,6 @@
 html {
     background-color : white;
-    font-family : "Segoe UI";
+    font-family: "Segoe UI", serif;
     overflow-x:hidden;
 }
 
@@ -171,7 +171,7 @@ body.contact-page{
     color: #ffffff; /* Texte blanc */
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -301,14 +301,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a.active {
+nav ul li a.active{
     text-decoration: underline;
 }
-
 
 /* Couleur survol des liens */
 nav ul li a:hover {
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1093px) {
