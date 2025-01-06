@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <?php $pageActuelle = 'Historique'; // Définit la page active pour css
+    <?php $pageActuelle = 'Fédération'; // Définit la page active pour css
     require_once "../includes/head.html"?>
 
-    <body class="historique-page">
+    <body>
 
         <?php require_once "../includes/header.html" ?>
 

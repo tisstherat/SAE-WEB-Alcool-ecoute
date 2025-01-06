@@ -4,7 +4,7 @@
     <?php $pageActuelle = 'Formulaire'; // Définit la page active pour css
     require_once "../includes/head.html"?>
 
-    <body class="formulaire-page">
+    <body>
         <?php require_once "../includes/header.html" ?>
 
         <p>contenu formulaire</p>

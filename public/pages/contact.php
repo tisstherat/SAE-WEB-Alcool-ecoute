@@ -1,12 +1,10 @@
-
-
 <!DOCTYPE html>
     <html lang="fr">
 
-    <?php $pageActuelle = 'contact'; // Définit la page active pour css
+    <?php $pageActuelle = 'Contact'; // Définit la page active pour css
     require_once "../includes/head.html"?>
 
-    <body class="contact-page">
+    <body>
         <?php require_once "../includes/header.html" ?>
 
     <?php
