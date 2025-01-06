@@ -7,7 +7,6 @@
     <body class="historique-page">
 
         <?php require_once "../includes/header.html" ?>
-        <?php require_once "../includes/navbar.html" ?>
 
         <div id="page">
 

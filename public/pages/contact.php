@@ -8,7 +8,6 @@
 
     <body class="contact-page">
         <?php require_once "../includes/header.html" ?>
-        <?php require_once "../includes/navbar.html" ?>
 
     <?php
         if(!session_id())

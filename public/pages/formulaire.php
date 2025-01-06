@@ -6,7 +6,6 @@
 
     <body class="formulaire-page">
         <?php require_once "../includes/header.html" ?>
-        <?php require_once "../includes/navbar.html" ?>
 
         <p>contenu formulaire</p>
 
