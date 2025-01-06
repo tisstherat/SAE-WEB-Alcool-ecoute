@@ -23,6 +23,10 @@
           <div class="col-2"><img src="../media/mobileNav.png" id="menu" alt="Menu"></div>
           <div class="login"></div>
 
+          <?php
+          $pageActuelle = 'contact'; // Définit la page active pour css
+          require_once "../includes/navbar.html"
+          ?>
       </header>
       <?php
       if(!session_id())
