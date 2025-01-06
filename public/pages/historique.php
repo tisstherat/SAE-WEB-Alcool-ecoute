@@ -18,17 +18,10 @@
         </div>
         <div class="col-2"><img src="../media/mobileNav.png" id="menu" alt="Menu"></div>
 
-        <nav id="navbar">
-            <ul>
-                <li><a href="../index.php">Accueil</a></li>
-                <li><a href="historique.php" class="active">Historique</a></li>
-                <li><a href="#">Les associations</a></li>
-                <li><a href="#">La prévention</a></li>
-                <li><a href="#">L'accompagnement</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
+      <?php
+      $pageActuelle = 'historique'; // Définit la page active pour css
+      require_once "../includes/navbar.html"
+      ?>
 
     </header>
 
