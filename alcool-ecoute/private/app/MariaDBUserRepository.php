@@ -31,4 +31,19 @@ class MariaDBUserRepository implements IUserRepository {
     }
     return null;
   }
+
+    public function saveEnquete(Enquete $enquete): bool
+    {
+        // TODO: Implement saveEnquete() method.
+    }
+
+    public function isSubmitById(string $id): bool
+    {
+        // TODO: Implement isSubmitById() method.
+    }
+
+    public function isAdminById(string $id): bool
+    {
+        // TODO: Implement isAdminById() method.
+    }
 }
