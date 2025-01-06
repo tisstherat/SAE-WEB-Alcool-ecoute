@@ -11,12 +11,11 @@
 </head>
 
 <body>
-
-<?php
-  $pageActuelle = 'index'; // Définit la page active pour css
-  require_once "../includes/header.php"
-?>
-
+<header class="row">
+  <?php require_once "../includes/header.html" ?>
+  <?php $pageActuelle = 'index'; // Définit la page active pour css
+  require_once "../includes/navbar.html" ?>
+</header>
 
 <?php require_once "../includes/footer.html"?>
 
