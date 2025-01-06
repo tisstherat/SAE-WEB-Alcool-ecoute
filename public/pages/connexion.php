@@ -13,7 +13,7 @@
     <body class="connecter-page">
         <div class="wrapper">
             <form action="../php/signin.php" method="post" id="connexion">
-                <a href="contact.html" class="icon-return">
+                <a href="index.php" class="icon-return">
                     <i class='bx bx-left-arrow-alt'></i>
                 </a>
                 <h1>Login</h1>
