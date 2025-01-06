@@ -10,20 +10,12 @@
         <script src="../script/navbar-mobile.js" type="module" defer></script>
     </head>
     <body class="historique-page">
-    <header class="row">
-        <div class="col-2"><img src="../media/logo_AE.png" id="logo" alt="Logo Alcool Ecoute"/></div>
-        <div class="col-8 container">
-            <h1 class="col">ALCOOL ECOUTE</h1>
-            <h2 class="col">Joie & Santé</h2>
-        </div>
-        <div class="col-2"><img src="../media/mobileNav.png" id="menu" alt="Menu"></div>
 
-      <?php
-      $pageActuelle = 'historique'; // Définit la page active pour css
-      require_once "../includes/navbar.html"
-      ?>
-
-    </header>
+      <header class="row">
+        <?php require_once "../includes/header.html" ?>
+        <?php $pageActuelle = 'historique'; // Définit la page active pour css
+        require_once "../includes/navbar.html" ?>
+      </header>
 
         <div id="page">
 
