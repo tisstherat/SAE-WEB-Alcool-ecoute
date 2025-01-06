@@ -81,19 +81,5 @@
     </main>
     </body>
 
-    <footer class="">
-      <div class="">
-        ALCOOL ECOUTE F.N.J.S.
-        Reconnue d’Utilité Publique
-        Groupement d’Associations d’Aide aux Personnes en Difficulté avec l’Alcool
-        Mouvement de Jeunesse et d’Education Populaire<br>
-        Agrément National Ministère de la Santé
-        SIEGE SOCIAL – 3 Impasse des Alouettes – 86190 AYRON
-      </div>
-      <img src="../media/logo_assurance_maladie.png">
-      <img src="../media/logo_ministere_jeunesse.png">
-      <img src="../media/logo_mildt.png">
-      <img src="../media/logo_ministere_sante.png">
-      <img src="../media/logo_msa.png">
-    </footer>
+    <?php require_once "../includes/footer.html"?>
 </html>
