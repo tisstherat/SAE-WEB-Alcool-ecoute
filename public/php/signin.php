@@ -20,6 +20,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   try {
     $retour = $auth->authenticate($_POST['email'], $_POST['password']);
+    $_SESSION['ID'] = $trousseau->getIdByEmail($_POST['email']);
     $message = "Authentification réussie";
     $code = "success";
   }
@@ -33,8 +34,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
   $_SESSION['flash'][$code] = $message;
 
   $direction = $_SERVER['HTTP_ORIGIN'];
-  header("Location: $direction/accueil.php");
+  header("Location: $direction/index.php");
 
 }
-
-require_once 'footer.php';
