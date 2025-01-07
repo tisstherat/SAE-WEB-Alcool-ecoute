@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,7 +23,7 @@
   ?>
   <nav id="navbar">
     <ul>
-      <li><a href="../index.php">Accueil</a></li>
+      <li><a href="accueil.php">Accueil</a></li>
       <li><a href="historique.php">Historique</a></li>
       <li><a href="#">associations</a></li>
       <li><a href="#">prévention</a></li>
