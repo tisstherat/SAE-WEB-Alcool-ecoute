@@ -103,6 +103,36 @@ article {
     margin-bottom: 1em;
 }
 
+.grilleIndic {
+    width: 70%; /* Largeur de 70% pour ajouter de la marge */
+    margin: 0 auto; /* Centre horizontalement */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Grille responsive */
+    gap: 10px; /* Espacement entre les camemberts */
+    padding: 20px;
+
+}
+.indic {
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Optionnel : Ajoute un peu d'espace autour */
+    min-height: 300px; /* Définit une hauteur minimale */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease; /* Transition fluide */
+}
+canvas {
+    display: block;
+    max-width: 100%;
+}
+/* Ajustements pour les petits écrans */
+@media (max-width: 1100px) {
+    .grilleIndic {
+        width: 97%; /* Réduit les marges sur les petits écrans */
+    }
+}
+
 .fauxtext {
     padding: 10em;
     text-align: justify;
