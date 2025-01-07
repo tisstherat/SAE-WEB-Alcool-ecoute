@@ -12,7 +12,7 @@ class BddConnect {
   public function __construct() {
     $this->host = "127.0.0.1";
     $this->login = "root";
-    $this->password = "root";
+    $this->password = "root root";
     $this->dbname = "alcoolecoute";
   }
 
