@@ -6,9 +6,9 @@ TRUNCATE TABLE admin;
 TRUNCATE TABLE enquete;
 SET FOREIGN_KEY_CHECKS = 1; -- Réactive les contraintes de clé étrangère
 
-# utilisateurs
+# utilisateurs admin mdp = admin
 INSERT INTO users(id, nom, prenom, email, password, created_at)
-VALUES (1, 'Administra', 'Teur', 'admin@alcoolecoute.fr', '1234', CURRENT_DATE);
+VALUES (1, 'Administra', 'Teur', 'admin@alcoolecoute.fr', '$2y$10$5f04edizS.14kAUSWvyaaumfQeGU1KucEJT7XvQCZ.FnTsTDgOQx.', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
 VALUES ('Jean', 'Jean', 'jeanjean@email.com', '5678', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
