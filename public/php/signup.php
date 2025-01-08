@@ -34,6 +34,5 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
   $_SESSION['flash'][$code] = $message;
 
   $direction = $_SERVER['HTTP_ORIGIN'];
-  header("Location: $direction/pages/connexion.php");
-
+  header("Location: $direction/public/pages/connexion.php");
 }
