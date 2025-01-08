@@ -29,13 +29,13 @@ INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDA
 VALUES (2, 20, 'Ile De France', 'Chomage', 'Appartement','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (3, 80, 'Region du caca', 'Chomage', 'Appartement','X',
+VALUES (3, 80, 'Region du caca', 'Chomage', 'Cabane','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (4, 36, 'Region du pipi', 'Chomage', 'Appartement','X',
+VALUES (4, 36, 'Region du pipi', 'Chomage', 'Maison','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (5, 51, 'Ile De France', 'Chomage', 'Appartement','X',
+VALUES (5, 51, 'Ile De France', 'Youtubeur', 'Appartement','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 
 # affichage des données
