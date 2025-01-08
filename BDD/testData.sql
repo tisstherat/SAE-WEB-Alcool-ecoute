@@ -1,12 +1,10 @@
-USE grp204_4;
+USE alcoolecoute;
 
-DELETE FROM admin WHERE 1;
-DELETE FROM enquete WHERE 1;
-DELETE FROM users WHERE 1;
-
-ALTER TABLE admin AUTO_INCREMENT = 1;
-ALTER TABLE enquete AUTO_INCREMENT = 1;
-ALTER TABLE users AUTO_INCREMENT = 1;
+SET FOREIGN_KEY_CHECKS = 0; -- Désactive les contraintes de clé étrangère temporairement
+TRUNCATE TABLE users;
+TRUNCATE TABLE admin;
+TRUNCATE TABLE enquete;
+SET FOREIGN_KEY_CHECKS = 1; -- Réactive les contraintes de clé étrangère
 
 # utilisateurs
 INSERT INTO users(id, nom, prenom, email, password, created_at)
