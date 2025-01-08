@@ -5,7 +5,8 @@
 require_once "../includes/head.html" ?>
 
 <body>
-  <?php require_once "../includes/header.html" ?>
+<?php require_once "../includes/header.html" ?>
+<?php require_once "../includes/navbarV.php" ?>
   <?php require_once "../includes/sessionFlash.php"; ?>
 
   <div id="page">
