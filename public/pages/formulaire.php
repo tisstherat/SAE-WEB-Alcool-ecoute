@@ -21,27 +21,11 @@ messageFlash();
 
 ?>
 <body class="formulaire-page">
-<header class="row">
-    <div class="col-2"><img src="../media/logo_AE.png" id="logo" alt="Logo Alcool Ecoute"/></div>
-    <div class="col-8 container">
-        <h1 class="col">ALCOOL ECOUTE</h1>
-        <h2 class="col">Joie & Santé</h2>
-    </div>
-    <div class="col-2"><img src="../media/mobileNav.png" id="menu" alt="Menu"></div>
-
-    <nav id="navbar">
-        <ul>
-            <li><a href="../index.php">Accueil</a></li>
-            <li><a href="historique.php">Historique</a></li>
-            <li><a href="#">Les associations</a></li>
-            <li><a href="#">La prévention</a></li>
-            <li><a href="#">L'accompagnement</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="contact.php" class="active">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
+
+<?php require_once "../includes/header.html" ?>
+<?php require_once "../includes/navbarDynamique.php" ?>
+<?php require_once "../includes/sessionFlash.php" ?>
 
 <div class="form-container">
     <h1 class="form-title">Formulaire </h1>

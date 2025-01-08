@@ -7,6 +7,8 @@
     <body>
 
         <?php require_once "../includes/header.html" ?>
+        <?php require_once "../includes/navbarDynamique.php" ?>
+        <?php require_once "../includes/sessionFlash.php"?>
 
         <div id="page">
 

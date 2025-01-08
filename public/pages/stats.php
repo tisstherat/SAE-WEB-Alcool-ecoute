@@ -24,6 +24,7 @@ require_once "../includes/head.html"?>
 <body>
   <!-- header -->
   <?php require_once "../includes/header.html" ?>
+  <?php require_once "../includes/navbarDynamique.php" ?>
   <?php require_once "../includes/sessionFlash.php"?>
 
   <h1>Indicateurs</h1>
