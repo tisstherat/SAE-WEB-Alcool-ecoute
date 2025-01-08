@@ -4,20 +4,9 @@
 <?php $pageActuelle = 'Accueil'; // Définit la page active pour css navbar
 require_once "../includes/head.html" ?>
 
-<?php //debug temporaire
-session_start();
-
-if (!empty($_SESSION['flash'])) {
-  foreach ($_SESSION['flash'] as $type => $msg) {
-    echo "<div class='alert {$type}'>{$msg}</div>";
-  }
-  unset($_SESSION['flash']); // Efface les messages après affichage
-}
-?>
-
 <body>
-
   <?php require_once "../includes/header.html" ?>
+  <?php require_once "../includes/sessionFlash.php"; ?>
 
   <div id="page">
       <article>
