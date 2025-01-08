@@ -1,21 +1,21 @@
 <?php return array(
     'root' => array(
-        'name' => 'gestion/alcool-ecoute',
+        'name' => 'gestion/alcoolecoute',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '3340219cea8e9ac39d61d6f9b23f35b88a017972',
+        'reference' => 'ea4d9e077e5940751cd236ee78fb8ec0436fa7bd',
         'type' => 'library',
-        'install_path' => __DIR__ . '/../alcool-ecoute/',
+        'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'gestion/alcool-ecoute' => array(
+        'gestion/alcoolecoute' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '3340219cea8e9ac39d61d6f9b23f35b88a017972',
+            'reference' => 'ea4d9e077e5940751cd236ee78fb8ec0436fa7bd',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../alcool-ecoute/',
+            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
