@@ -22,12 +22,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $retour = $auth->authenticate($_POST['email'], $_POST['password']);
     $_SESSION['ID'] = $trousseau->getIdByEmail($_POST['email']);
 
-    //debug temporaire
-    $adminStatus = $trousseau->isAdminById($_SESSION['ID']);
-    var_dump($adminStatus);
+    $_SESSION['isAdmin'] = $trousseau->isAdminById($_SESSION['ID']);
 
     $message = "Authentification réussie connecté avec l'id : " . $_SESSION['ID'] .
-      " admin : " . $trousseau->isAdminById($_SESSION['ID']);
+      " admin : " . $_SESSION['isAdmin'];
     $code = "success";
   }
   catch(Exception $e) {
@@ -40,6 +38,5 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
   $_SESSION['flash'][$code] = $message;
 
   $direction = $_SERVER['HTTP_ORIGIN'];
-  header("Location: $direction/public/pages/accueil.php");
-
+  header("Location: $direction/public/pages/stats.php");
 }

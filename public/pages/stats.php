@@ -1,12 +1,30 @@
+<?php
+require_once "../includes/startSession.php";
+
+// Vérifier user connecté
+if (!isset($_SESSION['ID'])) {
+    header('Location: connexion.php');
+    exit;
+}
+
+// Vérifier admin
+if (!$_SESSION['isAdmin']) {
+    echo "Accès refusé : Vous n'êtes pas autorisé à accéder à cette page.";
+  exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <!-- head -->
-<?php $pageActuelle = 'Formulaire'; // Définit la page active pour css navbar
+
+<?php $pageActuelle = 'Stats'; // Définit la page active pour css navbar
 require_once "../includes/head.html"?>
 
 <body>
   <!-- header -->
   <?php require_once "../includes/header.html" ?>
+  <?php require_once "../includes/sessionFlash.php"?>
 
   <h1>Indicateurs</h1>
   <div class="grilleIndic">
