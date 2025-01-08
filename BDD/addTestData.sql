@@ -10,7 +10,7 @@ SET FOREIGN_KEY_CHECKS = 1; -- Réactive les contraintes de clé étrangère
 INSERT INTO users(id, nom, prenom, email, password, created_at)
 VALUES (1, 'Administra', 'Teur', 'admin@alcoolecoute.fr', '$2y$10$5f04edizS.14kAUSWvyaaumfQeGU1KucEJT7XvQCZ.FnTsTDgOQx.', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
-VALUES ('Jean', 'Jean', 'jeanjean@email.com', '5678', CURRENT_DATE);
+VALUES ('Jean', 'Jean', 'user@email.com', '$2y$10$5f04edizS.14kAUSWvyaaumfQeGU1KucEJT7XvQCZ.FnTsTDgOQx.', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
 VALUES ('Alphonse', 'Premier', 'alph_1r@email.com', '9101112', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
