@@ -106,10 +106,10 @@ VALUES (18, 40, 'Normandie', 'Études supérieures', 'Hospitalisation en psychia
         true, 'Aide-24h', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
 VALUES (19, 40, 'Guyane', 'Études supérieures', 'Autre','Aucune',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+        true, 'Aide-24h', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
 VALUES (20, 32, 'Pays de la Loire', 'Autre', 'Autre','Oui',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+        true, 'Aide-24h', 'aucun', CURRENT_DATE);
 
 # affichage des données
 SELECT * FROM users;
