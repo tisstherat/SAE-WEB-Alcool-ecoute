@@ -2,6 +2,7 @@
 const query2 = '../querys/queryVieCDAPH.php';
 const queryOuiNonVivant = '../querys/queryChoixVivant.php';
 const queryBS = '../querys/queryBesoinSoutien.php';
+const queryLieuVie = '../querys/queryLieuVie.php';
 
 // Fonction pour créer le graphique
 function faireCamembert(canvasId, data) {
@@ -62,8 +63,13 @@ fetch(queryBS)
     .then(response => response.json())
     .then(data => {
         faireCamembert('camembert3', data);
-        faireCamembert('camembert4', data);
-        faireCamembert('camembert5', data);
+    })
+    .catch(error => console.error('Erreur lors de la récupération des données :', error));
+
+// Récupérer les données depuis le backend
+fetch(queryLieuVie)
+    .then(response => response.json())
+    .then(data => {
         diagrammeBarres('barres1', data);
     })
     .catch(error => console.error('Erreur lors de la récupération des données :', error));
