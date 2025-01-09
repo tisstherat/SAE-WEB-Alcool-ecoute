@@ -1,3 +1,5 @@
+#Fichier inutile pour le fonctionnement du site
+
 #TOTAL USERS
 SELECT COUNT(*) AS total FROM enquete;
 
