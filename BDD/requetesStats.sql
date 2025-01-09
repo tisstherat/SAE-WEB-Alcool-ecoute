@@ -15,7 +15,6 @@ SELECT COUNT(*) AS nombre FROM enquete where lieu_de_vie_CDAPH = 'Aucune';
 SELECT COUNT(*) AS nombre FROM enquete where lieu_de_vie_CDAPH = 'Oui';
 SELECT COUNT(*) AS nombre FROM enquete where lieu_de_vie_CDAPH = 'Non';
 
-
 #LDV CHOIX
 SELECT lieu_de_vie_choix, COUNT(*) AS nombre FROM enquete GROUP BY lieu_de_vie_choix ORDER BY 1;
 SELECT COUNT(*) as total from enquete;
@@ -26,3 +25,4 @@ SELECT emploi, COUNT(*) AS nombre FROM enquete GROUP BY emploi ORDER BY 1;
 
 #BESOIN SOUTIEN
 SELECT besoin, COUNT(*) AS nombre FROM enquete GROUP BY besoin ORDER BY 1;
+SELECT COUNT(*) AS nombre FROM enquete where besoin = 'Aide-24h';
