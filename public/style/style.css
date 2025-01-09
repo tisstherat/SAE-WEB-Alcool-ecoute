@@ -125,6 +125,7 @@ article {
     border-radius: 8px; /* Coins arrondis */
     padding: 20px; /* Optionnel : Ajoute un peu d'espace autour */
     min-height: 300px; /* Définit une hauteur minimale */
+    max-height: 600px; /* Définit une hauteur minimale */
     justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: width 0.3s ease; /* Transition fluide */

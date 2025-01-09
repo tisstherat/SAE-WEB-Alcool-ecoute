@@ -29,9 +29,6 @@ function querySQL($codeSql) {
   // Code à exécuter
   return $resultat; // (Optionnel) Retourne un résultat
 }
-
-$queryAge1 = querySQL('SELECT age FROM enquete WHERE id = 1');
-
 $nbUserEnquete = querySQL('SELECT COUNT(*) as total from enquete',);
 $nbVivantChoix = querySQL('SELECT COUNT(*) AS nombreVivantCDAPH FROM enquete GROUP BY lieu_de_vie_choix ORDER BY 1');
 $propOui = $nbVivantChoix/$nbUserEnquete*100;

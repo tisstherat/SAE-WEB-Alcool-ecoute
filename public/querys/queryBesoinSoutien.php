@@ -29,9 +29,6 @@ function querySQL($codeSql) {
   // Code à exécuter
   return $resultat; // (Optionnel) Retourne un résultat
 }
-
-$queryAge1 = querySQL('SELECT age FROM enquete WHERE id = 1');
-
 $nbUserEnquete = querySQL('SELECT COUNT(*) as total from enquete',);
 $nb2424 = querySQL('SELECT COUNT(*) AS nombre FROM enquete where besoin = "Aide-24h"');
 $nbStimulPonctuel = querySQL('SELECT COUNT(*) AS nombre FROM enquete where besoin = "Stimulations-ponctuelles"');

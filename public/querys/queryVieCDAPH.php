@@ -30,8 +30,6 @@ function querySQL($codeSql) {
   return $resultat; // (Optionnel) Retourne un résultat
 }
 
-$queryAge1 = querySQL('SELECT age FROM enquete WHERE id = 1');
-
 $nbUserEnquete = querySQL('SELECT COUNT(*) as total from enquete',);
 $nbOui = querySQL('SELECT COUNT(*) AS nombre FROM enquete where lieu_de_vie_CDAPH = "Oui"');
 $nbNon = querySQL('SELECT COUNT(*) AS nombre FROM enquete where lieu_de_vie_CDAPH = "Non"');
