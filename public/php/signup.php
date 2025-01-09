@@ -4,11 +4,7 @@ use Gestion\AlcoolEcoute\Authentification;
 use Gestion\AlcoolEcoute\BddConnect;
 use Gestion\AlcoolEcoute\MariaDBUserRepository;
 
-if(!session_id())
-  session_start();
-
-
-
+require_once "../includes/startSession.php";
 require_once '../../vendor/autoload.php';
 
 $bdd = new BddConnect();
