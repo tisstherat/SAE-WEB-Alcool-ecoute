@@ -32,7 +32,7 @@ function querySQL($codeSql) {
 $nbUserEnquete = querySQL('SELECT COUNT(*) as total from enquete',);
 $nbVivantChoix = querySQL('SELECT COUNT(*) AS nombreVivantCDAPH FROM enquete GROUP BY lieu_de_vie_choix ORDER BY 1');
 $propOui = $nbVivantChoix/$nbUserEnquete*100;
-$propOui = round($propOui, 2);
+$propOui = round($propOui, 1);
 $propNon = 100-$propOui;
 
 // Données pour le camembert
