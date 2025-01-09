@@ -1,5 +1,6 @@
 // URL du script backend PHP
-const backendUrl = '../querys/statsBackEnd.php';
+const query2 = '../querys/queryVieCDAPH.php';
+const queryOuiNonVivant = '../querys/queryChoixVivant.php';
 
 // Fonction pour créer le graphique
 function faireCamembert(canvasId, data) {
@@ -39,11 +40,29 @@ function diagrammeBarres(canvasId, data) {
     });
 }
 
+const dataTest = {
+    labels: ["Statique 1", "Statique 2", "Statique 3"],
+    datasets: [
+        {
+            data: [15, 25, 40],
+            backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
+        }
+    ]
+};
+
+
 // Récupérer les données depuis le backend
-fetch(backendUrl)
+fetch(query2)
     .then(response => response.json())
     .then(data => {
         faireCamembert('camembert1', data); // Crée le graphique avec les données récupérées
+    })
+    .catch(error => console.error('Erreur lors de la récupération des données :', error));
+
+// Récupérer les données depuis le backend
+fetch(queryOuiNonVivant)
+    .then(response => response.json())
+    .then(data => {
         faireCamembert('camembert2', data);
         faireCamembert('camembert3', data);
         faireCamembert('camembert4', data);

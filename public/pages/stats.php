@@ -35,7 +35,6 @@ require_once "../includes/head.html"?>
     <div class="indic"> <canvas id="camembert4"></canvas> </div>
     <div class="indic"> <canvas id="camembert5"></canvas> </div>
     <div class="indic"> <canvas id="barres1"></canvas></div>
-
   </div>
 
 
