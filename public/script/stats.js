@@ -40,17 +40,6 @@ function diagrammeBarres(canvasId, data) {
     });
 }
 
-const dataTest = {
-    labels: ["Statique 1", "Statique 2", "Statique 3"],
-    datasets: [
-        {
-            data: [15, 25, 40],
-            backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
-        }
-    ]
-};
-
-
 // Récupérer les données depuis le backend
 fetch(query2)
     .then(response => response.json())
