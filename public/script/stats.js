@@ -1,5 +1,5 @@
 // URL du script backend PHP
-const backendUrl = '../php/statsBackEnd.php';
+const backendUrl = '../querys/statsBackEnd.php';
 
 // Fonction pour créer le graphique
 function faireCamembert(canvasId, data) {
