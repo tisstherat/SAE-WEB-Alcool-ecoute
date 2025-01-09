@@ -33,13 +33,12 @@ require_once "../includes/head.html"?>
       <canvas id="camembert1"></canvas> </div>
     <div class="indic"><h3>Le lieu de vie correspond-il à votre choix ?</h3>
       <canvas id="camembert2"></canvas> </div>
-
-    <div class="indic"> <canvas id="camembert3"></canvas> </div>
+    <div class="indic"><h3>De quel type d'interventions l'adhérent a t-il besoin ?</h3>
+      <canvas id="camembert3"></canvas> </div>
     <div class="indic"> <canvas id="camembert4"></canvas> </div>
     <div class="indic"> <canvas id="camembert5"></canvas> </div>
     <div class="indic"> <canvas id="barres1"></canvas></div>
   </div>
-
 
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
