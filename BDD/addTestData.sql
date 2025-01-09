@@ -17,6 +17,36 @@ INSERT INTO users(nom, prenom, email, password, created_at)
 VALUES ('Eric', 'Iky', 'rikiki@email.com', '13141516', CURRENT_DATE);
 INSERT INTO users(nom, prenom, email, password, created_at)
 VALUES ('Côme', 'Itpuch', 'commit-push@email.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('A', 'A', 'a@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('B', 'B', 'b@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('C', 'C', 'c@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('D', 'D', 'd@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('E', 'E', 'e@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('F', 'F', 'f@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('G', 'G', 'g@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('H', 'H', 'h@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('I', 'I', 'i@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('J', 'J', 'j@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('K', 'K', 'k@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('L', 'L', 'l@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('M', 'M', 'm@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('N', 'N', 'n@m.com', '17181920', CURRENT_DATE);
+INSERT INTO users(nom, prenom, email, password, created_at)
+VALUES ('O', 'O', 'o@m.com', '17181920', CURRENT_DATE);
 
 # administrateurs
 INSERT INTO admin(id_users)
@@ -24,16 +54,16 @@ VALUES (1);
 
 # réponses à l enquête
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (2, 20, 'Ile De France', 'Chomage', 'Appartement','X',
+VALUES (2, 20, 'Île-de-France', 'Chomage', 'Appartement','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (3, 80, 'Region du caca', 'Chomage', 'Cabane','X',
+VALUES (3, 80, 'Île-de-France', 'Chomage', 'Cabane','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (4, 36, 'Region du pipi', 'Chomage', 'Maison','X',
+VALUES (4, 36, 'Île-de-France', 'Chomage', 'Maison','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (5, 51, 'Ile De France', 'Youtubeur', 'Appartement','X',
+VALUES (5, 51, 'Île-de-France', 'Youtubeur', 'Appartement','X',
         false, 'placeholder', 'placeholder', CURRENT_DATE);
 
 # affichage des données
