@@ -29,7 +29,8 @@ require_once "../includes/head.html"?>
 
   <h1>Indicateurs</h1>
   <div class="grilleIndic">
-    <div class="indic"> <canvas id="camembert1"></canvas> </div>
+    <div class="indic"><h3>Le lieu de vie correspond-il à une orientation CDAPH ?</h3>
+      <canvas id="camembert1"></canvas> </div>
     <div class="indic"> <canvas id="camembert2"></canvas> </div>
     <div class="indic"> <canvas id="camembert3"></canvas> </div>
     <div class="indic"> <canvas id="camembert4"></canvas> </div>
