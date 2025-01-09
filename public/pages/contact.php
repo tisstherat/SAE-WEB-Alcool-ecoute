@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<?php $pageActuelle = 'Accueil'; // Définit la page active pour css navbar
+<?php $pageActuelle = 'Contact'; // Définit la page active pour css navbar
 require_once "../includes/head.html" ?>
 
 <body>
 
-<?php require_once "../includes/header.html" ?>
-<?php require_once "../includes/navbarDynamique.php" ?>
+<?php require_once "../includes/header.php" ?>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <?php require_once "../includes/sessionFlash.php" ?>
 
 <main class="main-container">
@@ -16,8 +17,25 @@ require_once "../includes/head.html" ?>
     <p>N'hésitez pas à nous contacter ! Et pensez à regarder notre FAQ !</p>
   </div>
 
-  <form>
-    <div class="form-group">
+  <form class="formulaire">
+    <div>
+        <?php
+        if(!session_id())
+            session_start();
+        require_once "../php/signin.php";
+
+        if(isset($_SESSION['ID'] )&& isset($_SESSION['isAdmin'])) {
+            if($_SESSION['isAdmin']==0) {
+                echo <<<HTML
+                          <div class="form-group">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" rows="5" required="required"></textarea>
+                          </div>  
+                        HTML;
+            }
+        }elseif (!isset($_SESSION['ID']) && !isset($_SESSION['isAdmin'])) {
+            echo <<<HTML
+                <div class="form-group">
       <label for="prenom">Prénom</label>
       <input type="text" id="prenom" name="prenom" required="required">
     </div>
@@ -30,10 +48,18 @@ require_once "../includes/head.html" ?>
       <input type="text" id="nom" name="nom" required="required">
     </div>
     <div class="form-group">
-      <label for="message">Votre message</label>
-      <textarea id="message" name="message" rows="5" required="required"></textarea>
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                          </div> 
+HTML;
+        }
+        require_once '../../private/app/flash.php';
+
+        messageFlash();
+
+        ?>
     </div>
-    <button type="submit">Envoyer</button>
+    <button type="submit" id="send">Envoyer</button>
   </form>
 
   <section class="contact-info">
@@ -63,6 +89,6 @@ require_once "../includes/head.html" ?>
 </main>
 
 <?php require_once "../includes/footer.html" ?>
-
+<script src="../script/contact.js"></script>
 </body>
 </html>
