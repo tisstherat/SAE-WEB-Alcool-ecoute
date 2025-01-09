@@ -35,7 +35,8 @@ require_once "../includes/head.html"?>
       <canvas id="camembert2"></canvas> </div>
     <div class="indic"><h3>De quel type d'interventions l'adhérent a t-il besoin ?</h3>
       <canvas id="camembert3"></canvas> </div>
-    <div class="indic"> <canvas id="barres1"></canvas></div>
+    <div class="indic"><h3>Où Vit l'adhérent ?</h3>
+      <canvas id="barres1"></canvas></div>
   </div>
 
   <!-- scripts -->

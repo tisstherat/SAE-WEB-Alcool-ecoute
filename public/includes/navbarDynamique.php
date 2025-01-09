@@ -7,7 +7,7 @@ if (isset($_SESSION['ID'])) {
     require_once "../includes/adminNavbar.html";
   }
   else
-    require_once "../includes/navbar.html";
+    require_once "../includes/navBarUser.html";
 }
 else
   require_once "../includes/navbar.html";

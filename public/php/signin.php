@@ -13,9 +13,9 @@ $bdd = new BddConnect();
 $pdo = $bdd->connexion();
 $trousseau = new MariaDBUserRepository($pdo);
 $auth = new Authentification($trousseau);
+$_SESSION['ID'] = null;
 
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
-
   try {
     $retour = $auth->authenticate($_POST['email'], $_POST['password']);
     $_SESSION['ID'] = $trousseau->getIdByEmail($_POST['email']);
