@@ -54,58 +54,58 @@ VALUES (1);
 
 # réponses à l enquête
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (2, 20, 'Île-de-France', 'Autre', 'Autre','Aucune',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (2, 20, 'Île-de-France', 'Formation professionnelle', 'Dans la Famille en permanence','Aucune',
+        false, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (3, 30, 'Île-de-France', 'Autre', 'Autre','Oui',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (3, 30, 'Île-de-France', 'Formation professionnelle', 'Dans la Famille en permanence','Oui',
+        true, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (4, 36, 'Île-de-France', 'Autre', 'Autre','Aucune',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (4, 36, 'Île-de-France', 'Formation professionnelle', 'Dans la Famille en permanence','Aucune',
+        true, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (5, 44, 'Île-de-France', 'Autre', 'Autre','Oui',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (5, 44, 'Île-de-France', 'Formation professionnelle', 'Dans la Famille en permanence','Oui',
+        false, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (6, 20, 'Corse', 'Autre', 'Autre','Non',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (6, 20, 'Corse', 'Formation professionnelle', 'Dans un logement indépendant','Non',
+        false, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (7, 20, 'Corse', 'Autre', 'Autre','Aucune',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (7, 20, 'Corse', 'Formation professionnelle', 'Dans un logement indépendant','Aucune',
+        false, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (8, 20, 'Corse', 'Autre', 'Autre','Non',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (8, 20, 'Corse', 'Activité professionnelle en milieu ordinaire', 'Dans un logement indépendant','Non',
+        true, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (9, 21, 'Bretagne', 'Autre', 'Autre','Non',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (9, 21, 'Bretagne', 'Activité professionnelle en milieu ordinaire', 'Dans un logement indépendant','Non',
+        false, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (10, 23, 'Bretagne', 'Autre', 'Autre','Oui',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (10, 23, 'Bretagne', 'Activité professionnelle en milieu ordinaire', 'Dans un logement indépendant','Oui',
+        true, 'Autonome', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (11, 21, 'Bretagne', 'Autre', 'Autre','Non',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (11, 21, 'Bretagne', 'Activité professionnelle en milieu ordinaire', 'Dans un logement indépendant','Non',
+        true, 'Stimulations-ponctuelles', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (12, 28, 'Grand-Est', 'Autre', 'Autre','Aucune',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (12, 28, 'Grand-Est', 'Activité professionnelle en milieu ordinaire', 'Dans un logement indépendant','Aucune',
+        true, 'Stimulations-ponctuelles', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (13, 29, 'Grand-Est', 'Autre', 'Autre','Oui',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (13, 29, 'Grand-Est', 'Scolarité en milieu ordinaire', 'Dans un habitat inclusif','Oui',
+        false, 'Stimulations-ponctuelles', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (14, 24, 'Je vis à l''étranger', 'Autre', 'Autre','Non',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (14, 24, 'Je vis à l''étranger', 'Sans aucune activité scolaire ou professionnelle', 'Dans un habitat inclusif','Non',
+        false, 'Soutien-autonomie', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (15, 38, 'Normandie', 'Autre', 'Autre','Aucune',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (15, 38, 'Normandie', 'Sans aucune activité scolaire ou professionnelle', 'Dans un habitat inclusif','Aucune',
+        true, 'Soutien-autonomie', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (16, 40, 'Normandie', 'Autre', 'Autre','Oui',
-        false, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (16, 40, 'Normandie', 'Sans aucune activité scolaire ou professionnelle', 'En IME avec internat','Oui',
+        false, 'Aide-24h', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (17, 38, 'Normandie', 'Autre', 'Autre','Oui',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (17, 38, 'Normandie', 'Sans aucune activité scolaire ou professionnelle', 'En IME avec internat','Oui',
+        true, 'Aide-24h', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (18, 40, 'Normandie', 'Autre', 'Autre','Oui',
-        true, 'Autre', 'aucun', CURRENT_DATE);
+VALUES (18, 40, 'Normandie', 'Études supérieures', 'Hospitalisation en psychiatrie','Oui',
+        true, 'Aide-24h', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
-VALUES (19, 40, 'Guyane', 'Autre', 'Autre','Aucune',
+VALUES (19, 40, 'Guyane', 'Études supérieures', 'Autre','Aucune',
         true, 'Autre', 'aucun', CURRENT_DATE);
 INSERT INTO enquete (id_users, age, region, emploi, lieu_de_vie, lieu_de_vie_CDAPH, lieu_de_vie_choix, besoin, besoinDetail, submit_at)
 VALUES (20, 32, 'Pays de la Loire', 'Autre', 'Autre','Oui',
