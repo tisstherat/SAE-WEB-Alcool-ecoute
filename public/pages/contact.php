@@ -7,7 +7,7 @@ require_once "../includes/head.html" ?>
 <body>
 
 <?php require_once "../includes/header.html" ?>
-<?php require_once "../includes/navbar.html" ?>
+<?php require_once "../includes/navbarDynamique.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <?php require_once "../includes/sessionFlash.php" ?>
